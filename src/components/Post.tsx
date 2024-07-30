@@ -6,6 +6,19 @@ interface IPostProps {
   post: IPost;
 }
 
+// export function Post({ author, content, image, timestamp }: IPost): ReactElement {
+//   return (
+//     <article className="post">
+//       <PostAuthor author={author} />
+//       <p className="content">{content}</p>
+//       <figure className="figure">
+//         <img src={image} className="image" />
+//       </figure>
+//       <PostActions timestamp={timestamp} />
+//     </article>
+//   );
+// }
+
 export function Post({ post }: IPostProps): ReactElement {
   return (
     <article className="post">
