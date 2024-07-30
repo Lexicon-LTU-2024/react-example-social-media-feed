@@ -1,0 +1,14 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  width: 600px;
+}
+
+.post .figure .image {
+  width: 100%;
+}

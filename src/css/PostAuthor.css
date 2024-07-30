@@ -1,0 +1,27 @@
+.post-author {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  border-bottom: 1px solid lightgray;
+  color: var(--black);
+  padding-bottom: 1rem;
+}
+
+.post-author .user-icon {
+  font-size: 2rem;
+}
+
+.post-author .user {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.post-author .user .name {
+  font-weight: 600;
+}
+
+.post-author .user .username {
+  color: var(--grey);
+}

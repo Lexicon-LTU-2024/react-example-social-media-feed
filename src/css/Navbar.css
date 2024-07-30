@@ -1,0 +1,6 @@
+.navbar {
+  display: flex;
+  gap: 2rem;
+
+  color: var(--white);
+}

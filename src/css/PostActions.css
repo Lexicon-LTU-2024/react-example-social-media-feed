@@ -1,0 +1,12 @@
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 1px solid lightgray;
+  padding-top: 1rem;
+}
+
+.post-actions .actions {
+  display: flex;
+  gap: 2rem;
+}
