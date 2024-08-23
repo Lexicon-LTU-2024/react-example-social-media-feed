@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
 import { ILink, Link } from ".";
-import "../css/Navbar.css";
 
 interface INavbarProps {
   links: ILink[];

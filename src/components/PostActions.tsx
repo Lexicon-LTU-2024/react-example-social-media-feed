@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import "../css/PostActions.css";
 
 interface IPostActionsProps {
   timestamp: number;

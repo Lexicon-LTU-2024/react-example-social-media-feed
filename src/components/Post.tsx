@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
 import { IPost, PostActions, PostAuthor } from ".";
-import "../css/Post.css";
 
 interface IPostProps {
   post: IPost;

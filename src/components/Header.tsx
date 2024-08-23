@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import { ILink, Navbar } from ".";
 import linksFromJson from "../links.json";
-import "../css/Header.css";
 
 export function Header(): ReactElement {
   console.log(linksFromJson);

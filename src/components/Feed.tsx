@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
 import { Post, posts } from ".";
-import "../css/Feed.css";
 
 // import { Post } from "./Post";
 // import { posts } from "../data";

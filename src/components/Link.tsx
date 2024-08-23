@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
 import { ILink } from ".";
-import "../css/Link.css";
 
 interface ILinkProps {
   link: ILink;

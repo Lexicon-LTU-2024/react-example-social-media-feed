@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
 import { links, Navbar } from ".";
-import "../css/Footer.css";
 
 export function Footer(): ReactElement {
   return (

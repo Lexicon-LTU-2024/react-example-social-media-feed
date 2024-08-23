@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
 import { IAuthor } from "../interfaces";
-import "../css/PostAuthor.css"
 
 interface IPostAuthorProps {
   author: IAuthor;
