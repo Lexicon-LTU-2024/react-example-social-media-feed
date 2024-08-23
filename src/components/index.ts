@@ -7,6 +7,7 @@ export * from "./Navbar";
 export * from "./Post";
 export * from "./PostActions";
 export * from "./PostAuthor";
+export * from "./Search";
 
 export * from "../data";
 export * from "../interfaces";

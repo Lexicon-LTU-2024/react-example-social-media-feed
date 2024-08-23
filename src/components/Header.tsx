@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { ILink, Navbar } from ".";
+import { ILink, Navbar, Search } from ".";
 import linksFromJson from "../links.json";
 
 export function Header(): ReactElement {
@@ -11,6 +11,7 @@ export function Header(): ReactElement {
   return (
     <header className="header container">
       <h1 className="logo-name">Social Feed</h1>
+      <Search />
       <Navbar links={links} />
     </header>
   );

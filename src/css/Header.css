@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  gap: 2rem;
   justify-content: space-between;
 
   position: fixed;
@@ -9,4 +10,8 @@
   background-color: var(--green);
   color: whitesmoke;
   padding-block: 0.5rem;
+}
+
+.header .logo-name {
+  flex: 1;
 }
